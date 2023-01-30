@@ -3,9 +3,7 @@ package dao;
 import model.computer;
 
 public interface computerDAO {
-    /* private String jdbcURL = "jdbc:mysql://127.0.0.1:3306/catalogo";
-    private String jdbcUsername = "root";
-    private String password = "Rizlaplus13!"; */
+  
 
 
     /* 
