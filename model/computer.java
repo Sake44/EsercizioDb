@@ -2,17 +2,16 @@ package model;
 
 public class Computer {
     private int pcId;
-    private String brand;
+    private String marca;
     private String ram;
     private String cpu;
-    private String schermo;
+    private double schermo;
     private String gpu;
-    private int prezzo;
+    private double prezzo;
 
 
-    public Computer(int pcId, String brand, String ram, String cpu, String schermo, String gpu, int prezzo) {
-        this.pcId = pcId;
-        this.brand = brand;
+    public Computer(String marca, String ram, String cpu, double schermo, String gpu, double prezzo) {
+        this.marca = marca;
         this.ram = ram;
         this.cpu = cpu;
         this.schermo = schermo;
@@ -21,60 +20,43 @@ public class Computer {
     }
 
 
-    public int getPcId() {
-        return this.pcId;
+    //geters
+    public String getMarca(){
+        return this.marca;
     }
-
-    public void setPcId(int pcId) {
-        this.pcId = pcId;
-    }
-
-    public String getBrand() {
-        return this.brand;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public String getRam() {
+    public String getRam(){
         return this.ram;
     }
-
-    public void setRam(String ram) {
-        this.ram = ram;
-    }
-
-    public String getCpu() {
+    public String getCpu(){
         return this.cpu;
     }
-
-    public void setCpu(String cpu) {
-        this.cpu = cpu;
-    }
-
-    public String getSchermo() {
+    public double getSchermo(){
         return this.schermo;
     }
-
-    public void setSchermo(String schermo) {
-        this.schermo = schermo;
-    }
-
-    public String getGpu() {
+    public String getGpu(){
         return this.gpu;
     }
-
-    public void setGpu(String gpu) {
-        this.gpu = gpu;
-    }
-
-    public int getPrezzo() {
+    public double getPrezzo(){
         return this.prezzo;
     }
 
-    public void setPrezzo(int prezzo) {
+    //setters
+    public void setMarca(String marca){
+        this.marca = marca;
+    }
+    public void setRam(String ram){
+        this.ram = ram;
+    }
+    public void setCpu(String cpu){
+        this.cpu = cpu;
+    }
+    public void setSchermo(double schemo){
+        this.schermo = schermo;
+    }
+    public void setGpu(String gpu){
+        this.gpu = gpu;
+    }
+    public void setPrezzo(double prezzo){
         this.prezzo = prezzo;
     }
-
 }

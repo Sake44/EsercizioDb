@@ -2,7 +2,7 @@ package dao;
 
 import model.Computer;
 
-public interface ComputerDAO {
+public interface ComputerDAO{
   
 
 
@@ -16,10 +16,10 @@ public interface ComputerDAO {
     private static final String DELETE_PC = "DELETE FROM COMPUTER WHERE ID=?";
     private static final String UPDATE_PC = "UPDATE COMPUTER SET BRAND = ?, RAM = ?, CPU = ?, SCHERMO = ?, GPU = ?, PREZZO = ? WHERE ID = ?"; */
 
-    public void inserisciComputer(Computer pc);
-    public void cercaPerNome(String brand);
-    public void cercaPerPrezzo(int prezzo);
-    public void eliminaComputer(Computer pc);
-    public void modificaComputer(Computer pc);
+    // public void inserisciComputer(CComputerppc;
+    // public void cercaPerNome(String brand);
+    // public void cercaPerPrezzo(int prezzo);
+    // public void eliminaComputer(CComputerppc;
+    // public void modificaComputer(CComputerppc;
 
 }
