@@ -1,6 +1,6 @@
 package model;
 
-public class computer {
+public class Computer {
     private int pcId;
     private String brand;
     private String ram;
@@ -10,7 +10,7 @@ public class computer {
     private int prezzo;
 
 
-    public computer(int pcId, String brand, String ram, String cpu, String schermo, String gpu, int prezzo) {
+    public Computer(int pcId, String brand, String ram, String cpu, String schermo, String gpu, int prezzo) {
         this.pcId = pcId;
         this.brand = brand;
         this.ram = ram;

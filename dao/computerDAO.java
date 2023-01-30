@@ -1,8 +1,8 @@
 package dao;
 
-import model.computer;
+import model.Computer;
 
-public interface computerDAO {
+public interface ComputerDAO {
   
 
 
@@ -16,10 +16,10 @@ public interface computerDAO {
     private static final String DELETE_PC = "DELETE FROM COMPUTER WHERE ID=?";
     private static final String UPDATE_PC = "UPDATE COMPUTER SET BRAND = ?, RAM = ?, CPU = ?, SCHERMO = ?, GPU = ?, PREZZO = ? WHERE ID = ?"; */
 
-    public void inserisciComputer(computer pc);
+    public void inserisciComputer(Computer pc);
     public void cercaPerNome(String brand);
     public void cercaPerPrezzo(int prezzo);
-    public void eliminaComputer(computer pc);
-    public void modificaComputer(computer pc);
+    public void eliminaComputer(Computer pc);
+    public void modificaComputer(Computer pc);
 
 }

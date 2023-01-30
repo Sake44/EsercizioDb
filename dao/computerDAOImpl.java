@@ -1,17 +1,15 @@
 package dao;
 
-import model.computer;
+import model.Computer;
 
-public class computerDAOImpl implements computerDAO {
+public class ComputerDAOImpl implements ComputerDAO {
     private static String jdbcURL = "jdbc:mysql://127.0.0.1:3306/computers";
     private static String jdbcUsername = "root";
     private static String password = "@AtonSQL1234"; 
 
 
-
-
     @Override
-    public void inserisciComputer(computer pc) {
+    public void inserisciComputer(Computer pc) {
         
     }
 
@@ -26,12 +24,12 @@ public class computerDAOImpl implements computerDAO {
     }
 
     @Override
-    public void eliminaComputer(computer pc) {
+    public void eliminaComputer(Computer pc) {
         
     }
 
     @Override
-    public void modificaComputer(computer pc) {
+    public void modificaComputer(Computer pc) {
         
     }
 }
